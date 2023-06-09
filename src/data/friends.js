@@ -1,4 +1,4 @@
-const initialFriends = [
+export const initialFriends = [
   {
     id: 118836,
     name: "Clark",
@@ -18,7 +18,3 @@ const initialFriends = [
     balance: 0,
   },
 ];
-
-export default function App() {
-  return <div>Hello</div>;
-}
